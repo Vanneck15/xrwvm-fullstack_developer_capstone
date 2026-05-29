@@ -15,11 +15,7 @@ SECRET_KEY = 'django-insecure-ccow$tz_=9%dxu4(0%^(z%nx32#s@(zt9$ih@)5l54yny)wm-0
 
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    'vanneckgueb-8000.theianext-0-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai',
-    'localhost',
-    '127.0.0.1'
-]
+ALLOWED_HOSTS = ['*']
 
 # Ajout pour permettre la bonne détection du domaine derrière le proxy
 USE_X_FORWARDED_HOST = True
